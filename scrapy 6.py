@@ -44,3 +44,16 @@ def analyze_website(url):
 # Test the script
 website_url = 'https://www.example.com'
 analyze_website(website_url)
+
+###To run this script, you'll need to have the pymal library installed. You can install it using pip install pymal.
+
+This script utilizes the pymal library to perform the following tasks:
+
+Fetch website content: It retrieves the HTML content of the specified website using the requests library.
+Analyze website for malware: It scans the website content using the pymal.Scanner class and outputs any potential malware found.
+Gather additional security information:
+SSL Certificate: It checks the SSL certificate validity and issuer information using pymal.check_ssl.
+DNS Records: It fetches and displays the DNS records associated with the website using pymal.check_dns.
+These additional checks provide more advanced security analysis beyond basic malware scanning.
+
+Please note that the effectiveness of this script depends on the accuracy and availability of the pymal library and its underlying data sources. It's essential to consider multiple security measures and consult specialized tools and services for comprehensive website security analysis.
