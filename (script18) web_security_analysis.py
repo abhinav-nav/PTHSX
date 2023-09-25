@@ -1,3 +1,9 @@
+#In this advanced script, we've added the ability to perform SQL injection scans using sqlmap API. Additionally, we've included placeholders for further advanced security checks and analysis that you can implement based on your specific requirements.
+
+#Please make sure to replace 'your_vulners_api_key' with your own API key obtained from the Vulners vulnerability database.In this advanced script, we've added the ability to perform SQL injection scans using sqlmap API. Additionally, we've included placeholders for further advanced security checks and analysis that you can implement based on your specific requirements.
+
+#Please make sure to replace 'your_vulners_api_key' with your own API key obtained from the Vulners vulnerability database.
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
